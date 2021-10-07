@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="image-container">
+            <div class="logo-container">
+                <img src="https://i.ibb.co/wyRBp46/K.png" alt="K" class="logo" />
+                <h1 class="logo-heading">Kagami Diagnostics<sup>TM</sup></h1>
+                <p class="logo-para">By K4 Coach<sup>@</sup></p>
+            </div>
+            <div class="content-container">
+                <img src="https://i.ibb.co/ZJgWW4T/image.png" class="quotes-left" />
+                <p class="description">Boosting performance for sales professionals of every step of their sales journey</p>
+                <img src="https://i.ibb.co/ZJgWW4T/image.png" class="quotes-right" />
+            </div>
+            <div class="dots-container">
+                <img src="https://i.ibb.co/27yfQXM/Dots.png" class="dot" />
+            </div>
+        </div>
+        <div class="login-container">
+            <h1 class="heading">Login</h1>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <p><label for="email"><b>Email</b></label></p>
+                    <input type="text" placeholder="Enter Email" id="email" class="form-control">
+                    <p class="error-message" id="emailErrMsg"></p>
+                </div>
+                <div class="mb-3">
+                    <p><label for="password"><b>Password</b></label></p>
+                    <input type="Password" placeholder="Enter Password" id="password" class="form-control" minlength="6">
+                    <span class="eye">
+                        <i id="hide1" class="far fa-eye"></i>
+                        <i id="hide2" class="far fa-eye-slash"></i>
+                    </span>
+                    <p class="error-message" id="passwordErrMsg"></p>
+                </div>
+                <p class="account">Forgot password?<a href="">click here</a></p>
+                <button type="submit" class="login-button" onclick="display('sectionSubmit')">Login</button>
+                <p class="account">Don't have an account?<a href="">Register now</a></p>
+            </form>
+            <p class="login-result" id="sectionSubmit">Login Successfully</p>
+        </div>
+    </div>
+</body>
+
+</html>

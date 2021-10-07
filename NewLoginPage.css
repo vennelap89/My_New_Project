@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    display: flex;
+    height: 900px;
+    width: 1440px;
+    left: -1494px;
+    top: -3589px;
+    border-radius: 0px;
+    background-size: cover;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 666px;
+    height: 980px;
+    background-image: linear-gradient(#3D4A62, rgba(61, 74, 98, 0.93), rgba(61, 74, 98, 0.93)), url("https://i.ibb.co/3Mb6Z86/Background-Image.png");
+    background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.content-container {
+    text-align: center;
+    color: #ffffff;
+    margin: 35px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+}
+
+.error-message {
+    font-family: "Roboto";
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.dots-container {
+    margin-top: 100px;
+}
+
+.login-button {
+    background-color: #7a5b5b;
+    height: 5vh;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    color: #ffffff;
+    font-family: "Roboto"
+}
+
+.description {
+    font-size: 35px;
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.quotes-right {
+    margin-left: 500px;
+}
+
+.quotes-left {
+    margin-right: 500px;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.account {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+label {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+input {
+    height: 5vh;
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.eye {
+    position: absolute;
+}
+
+#hide1 {
+    display: none;
+}
